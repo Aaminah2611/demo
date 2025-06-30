@@ -1,0 +1,14 @@
+# Normalize all text files to use LF in the repo
+* text=auto
+
+# Explicitly set common file types to be normalized
+*.php     text
+*.html    text
+*.css     text
+*.js      text
+*.json    text
+*.md      text
+*.env     text
+*.lock    text
+*.yml     text
+*.xml     text
