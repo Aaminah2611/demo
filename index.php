@@ -13,7 +13,7 @@ $id = ($_GET['id']);
 
 $query = "select * from posts where id= :id";
 
-// SQL Injection: when accepting user input through query string/query form, never in-line as part of SQL query. 
+// SQL Injection: when accepting user input through query string/query form, NEVER in-line as part of SQL query. 
 // That's what allows for SQL Injection. Especially if query is not formatted properly. 
 // solution: don't in-line directly, instead, replace with '?' Something we will later associate/bind with query.
 // can use '?'or can use key (:id). Can use colon/not, up to you. 
